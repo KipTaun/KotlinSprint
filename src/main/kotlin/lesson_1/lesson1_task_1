@@ -1,0 +1,2 @@
+var quantityOfOrders:int=75
+val textWithThanks:string="Спасибо за покупку. Ждем Вас ещё"
