@@ -1,8 +1,0 @@
-  var quantityOfOrders:int=75
-  var quantityOfWorkers:int=2000
-  val textWithThanks:string="Спасибо за покупку. Ждем Вас ещё"
-  println(quantityOfOrders)
-  println(textWithThanks)
-  // println(quantityOfWorkers)
-  quantityOfWorkers=1999
-  println(quantityOfWorkers)
