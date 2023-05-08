@@ -1,9 +1,11 @@
 package lesson1
 
 fun main(args: Array<String>) {
-  val totalSecond: Int =  6480
-  var minute: Int = totalSecond/60
-  var second: Int = totalSecond-(minute*60)
+  val totalSecond = 6480
+  val minute = totalSecond/60
 
-  println("$minute:0$second")
+  val formattedMinute = String.format("%02d", minute)
+  val formattedSecond = String.format("%02d", totalSecond % 60)
+
+  println("$formattedMinute:$formattedSecond")
 }
