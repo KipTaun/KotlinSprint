@@ -1,4 +1,4 @@
-package lesson_1
+package lesson1
 
 fun  main(){
     var quantityOfOrders: Byte = 75
